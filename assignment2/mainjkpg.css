@@ -1,0 +1,76 @@
+html,
+bode {
+  margin: 0px;
+}
+
+.Container {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-rows: 27rem 100rem 10rem;
+  grid-template-areas:
+    "header header header"
+    ". content ."
+    "footer footer footer";
+  min-height: 100vh;
+}
+.header {
+  grid-area: header;
+}
+.content {
+  grid-area: content;
+}
+.footer {
+  background-color: brown;
+  grid-area: footer;
+}
+.Big {
+  width: 624px;
+  top: auto;
+}
+.Big2 {
+  width: 623px;
+  top: auto;
+  float: right;
+}
+.harryspic {
+  width: 300px;
+  margin-bottom: 57px;
+}
+.harryspic2 {
+  width: 300px;
+}
+.akapic {
+  width: 240px;
+  float: left;
+  margin-top: 50px;
+}
+.night {
+  margin-left: 245px;
+  margin-top: 100px;
+}
+.aka {
+  margin-left: 245px;
+  margin-top: 5px;
+}
+.harrysline {
+  margin-top: -30px;
+}
+.junglepic {
+  width: 500px;
+}
+body {
+  background-color: #dfcccc;
+}
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+h1 {
+  font-size: 37pt;
+}
+h2 {
+  font-size: 20pt;
+}
+p {
+  font-size: 12pt;
+  font-family: "Times New Roman", Times, serif;
+}

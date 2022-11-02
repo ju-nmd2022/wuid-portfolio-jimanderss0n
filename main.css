@@ -1,0 +1,45 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: #dfcccc;
+}
+h1 {
+  font-size: 22pt;
+}
+h2 {
+  font-size: 15pt;
+}
+p {
+  font-size: 10pt;
+}
+li {
+  color: #ff3000;
+  font-weight: light;
+}
+img {
+  float: right;
+  margin-right: 650px;
+  margin-top: -165px;
+}
+header {
+  font-size: 9pt;
+}
+button {
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-weight: bold;
+  float: right;
+}
+em {
+  float: right;
+  margin-right: 650px;
+  margin-top: -15px;
+  font-family: "Times New Roman", Times, serif;
+}
+.gif {
+  float: left;
+  padding-top: 20px;
+}
+button {
+  background-color: #ff3000;
+  color: black;
+}
