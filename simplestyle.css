@@ -1,0 +1,70 @@
+.body {
+  background-color: #1b1b1b;
+}
+.Container {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-rows: 20rem 60rem 10rem;
+  grid-template-areas:
+    "header header header"
+    ". content ."
+    "footer footer footer";
+}
+.header {
+  grid-area: header;
+  background-color: rgb(44, 44, 44);
+}
+.content {
+  grid-area: content;
+  background-color: rgb(44, 44, 44);
+}
+.footer {
+  background-color: #fcc500;
+  grid-area: footer;
+  width: 100%;
+}
+h1 {
+  color: #fcc500;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: lighter;
+}
+.banner {
+  width: 100%;
+}
+.goat {
+  width: 7em;
+  margin-top: 8px;
+  float: left;
+}
+.simple {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #fcc500;
+  text-align: center;
+  font-size: 30px;
+  font-weight: lighter;
+}
+.durk {
+  margin: auto;
+  width: 250px;
+  display: block;
+}
+.text {
+  text-align: center;
+  color: #fcc500;
+  font-weight: lighter;
+}
+.contact {
+  font-size: 20px;
+}
+@media only screen and (max-width: 877px) {
+  .banner {
+    display: none;
+  }
+  .header {
+    height: 50%;
+  }
+}
