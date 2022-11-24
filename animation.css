@@ -1,0 +1,78 @@
+body {
+  background-color: #989898;
+}
+.spades {
+  width: 1250px;
+  opacity: 0.5;
+  position: absolute;
+}
+h1 {
+  position: absolute;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  left: 170px;
+  bottom: 140px;
+  font-size: 100px;
+  animation-name: gang;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: backwards;
+}
+@keyframes gang {
+  0% {
+    color: #000000;
+  }
+  50% {
+    color: #fcc500;
+  }
+  100% {
+    color: #000000;
+  }
+}
+h2 {
+  position: absolute;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: normal;
+  font-style: inherit;
+  left: 175px;
+  bottom: 160px;
+  font-size: 30px;
+  color: #000000;
+}
+hr {
+  position: absolute;
+  width: 43%;
+  height: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  background-color: #000000;
+  border: #000000;
+  bottom: 165px;
+}
+.logo {
+  position: absolute;
+  width: 400px;
+  left: 550px;
+  bottom: 125px;
+}
+.logo:hover {
+  animation-name: snurr;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+}
+@keyframes snurr {
+  0% {
+    rotate: 0deg;
+  }
+  50% {
+    rotate: 180deg;
+  }
+  100% {
+    rotate: 360deg;
+  }
+}

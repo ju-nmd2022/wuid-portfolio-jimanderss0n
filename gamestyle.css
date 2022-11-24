@@ -1,0 +1,52 @@
+body {
+  text-align: center;
+}
+h1 {
+  font-size: 40px;
+}
+.plank {
+  width: 120px;
+  position: absolute;
+  bottom: 180px;
+  right: 300px;
+}
+.note {
+  width: 80px;
+  position: absolute;
+  bottom: 180px;
+  left: 150px;
+}
+.cave {
+  width: 600px;
+}
+.screw {
+  width: 80px;
+  position: absolute;
+  bottom: 180px;
+  left: 700px;
+}
+.sale {
+  width: 140px;
+  position: absolute;
+  bottom: 10px;
+  left: 700px;
+}
+.plankitem {
+  width: 120px;
+  visibility: hidden;
+}
+.screwitem {
+  width: 120px;
+  visibility: hidden;
+}
+.hammeritem {
+  width: 120px;
+  visibility: hidden;
+}
+.ct {
+  width: 400px;
+  height: 100px;
+}
+#fixedid {
+  visibility: hdden;
+}
